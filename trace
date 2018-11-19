@@ -1,0 +1,42 @@
+== Info:   Trying 127.0.0.1...
+== Info: TCP_NODELAY set
+== Info: Connected to 127.0.0.1 (127.0.0.1) port 56789 (#0)
+=> Send header, 173 bytes (0xad)
+0000: 50 4f 53 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d POST / HTTP/1.1.
+0010: 0a 48 6f 73 74 3a 20 31 32 37 2e 30 2e 30 2e 31 .Host: 127.0.0.1
+0020: 3a 35 36 37 38 39 0d 0a 55 73 65 72 2d 41 67 65 :56789..User-Age
+0030: 6e 74 3a 20 63 75 72 6c 2f 37 2e 35 38 2e 30 0d nt: curl/7.58.0.
+0040: 0a 41 63 63 65 70 74 3a 20 2a 2f 2a 0d 0a 43 6f .Accept: */*..Co
+0050: 6e 74 65 6e 74 2d 4c 65 6e 67 74 68 3a 20 31 39 ntent-Length: 19
+0060: 35 34 0d 0a 43 6f 6e 74 65 6e 74 2d 54 79 70 65 54..Content-Type
+0070: 3a 20 61 70 70 6c 69 63 61 74 69 6f 6e 2f 78 2d : application/x-
+0080: 77 77 77 2d 66 6f 72 6d 2d 75 72 6c 65 6e 63 6f www-form-urlenco
+0090: 64 65 64 0d 0a 45 78 70 65 63 74 3a 20 31 30 30 ded..Expect: 100
+00a0: 2d 63 6f 6e 74 69 6e 75 65 0d 0a 0d 0a          -continue....
+<= Recv header, 17 bytes (0x11)
+0000: 48 54 54 50 2f 31 2e 31 20 32 30 30 20 4f 4b 0d HTTP/1.1 200 OK.
+0010: 0a                                              .
+<= Recv header, 41 bytes (0x29)
+0000: 43 6f 6e 74 65 6e 74 2d 54 79 70 65 3a 20 74 65 Content-Type: te
+0010: 78 74 2f 70 6c 61 69 6e 3b 20 63 68 61 72 73 65 xt/plain; charse
+0020: 74 3d 75 74 66 2d 38 0d 0a                      t=utf-8..
+<= Recv header, 37 bytes (0x25)
+0000: 44 61 74 65 3a 20 4d 6f 6e 2c 20 31 39 20 4e 6f Date: Mon, 19 No
+0010: 76 20 32 30 31 38 20 31 37 3a 35 38 3a 30 30 20 v 2018 17:58:00 
+0020: 47 4d 54 0d 0a                                  GMT..
+<= Recv header, 19 bytes (0x13)
+0000: 43 6f 6e 6e 65 63 74 69 6f 6e 3a 20 63 6c 6f 73 Connection: clos
+0010: 65 0d 0a                                        e..
+<= Recv header, 28 bytes (0x1c)
+0000: 54 72 61 6e 73 66 65 72 2d 45 6e 63 6f 64 69 6e Transfer-Encodin
+0010: 67 3a 20 63 68 75 6e 6b 65 64 0d 0a             g: chunked..
+<= Recv header, 2 bytes (0x2)
+0000: 0d 0a                                           ..
+<= Recv data, 11 bytes (0xb)
+0000: 36 0d 0a 74 65 73 74 0d 0a 0d 0a                6..test....
+<= Recv data, 25 bytes (0x19)
+0000: 48 54 54 50 2f 31 2e 31 20 31 30 30 20 43 6f 6e HTTP/1.1 100 Con
+0010: 74 69 6e 75 65 0d 0a 0d 0a                      tinue....
+== Info: Illegal or missing hexadecimal sequence in chunked-encoding
+== Info: stopped the pause stream!
+== Info: Closing connection 0
